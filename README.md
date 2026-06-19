@@ -1,4 +1,8 @@
+```mermaid
 graph TD
+    A[Start] --> B{Is it working?}
+    B -- Yes --> C[Great!]
+    B -- No --> D[Check Syntax]   graph TD
     subgraph "Public Internet (Untrusted)"
         NGC[("NVIDIA NGC Public Registry<br/>(nvcr.io)")]
     end
