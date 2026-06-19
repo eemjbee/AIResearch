@@ -1,6 +1,3 @@
-# AIResearch
-Notes on AI Security
-
 graph TD
     subgraph "Public Internet (Untrusted)"
         NGC[("NVIDIA NGC Public Registry<br/>(nvcr.io)")]
