@@ -67,7 +67,6 @@ This document provides a complete reference for the AI lab infrastructure, cover
 | VMID | Name | Type | Status | RAM | Disk | Cores | Notes |
 |---|---|---|---|---|---|---|---|
 | 100 | **rock** | QEMU | Running | 64 GB | 250 GB | 8 | Hosts Portainer, data volumes, RAG tools |
-| 200 | **rag-vm** | LXC | — | — | — | — | Ubuntu 26.04 — see §6 |
 
 ---
 
