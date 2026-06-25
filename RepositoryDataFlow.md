@@ -10,9 +10,9 @@ graph TD
         Policy{"Policy Gate (Fail if Critical CVEs)"}
     end
 
-    subgraph "Internal Trusted Network (DGX Cluster)"
+    subgraph "Internal Trusted Network (GPU Cluster)"
         Harbor["Private Registry (Harbor/NGC Private) Only Verified Images"]
-        DGX["DGX Spark Nodes (Developers)"]
+        GPU["GPU Nodes (Developers)"]
         K8s["Admission Controller (Kyverno/OPA) Blocks External Pulls"]
     end
 
